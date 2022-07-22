@@ -1,0 +1,185 @@
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+body {
+   color: #2c2c2c;
+}
+
+.container {
+   width: 100%;
+   /* margin: auto; */
+}
+
+.navbar {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   position: fixed;
+   width: 100%;
+   margin: auto;
+   background-color: #1e1e1e;
+   z-index: 10;
+}
+
+.logo {
+   margin: 0 3rem 0 2rem;
+   color: #f2f2f2;
+   text-transform: uppercase;
+}
+
+.navbar-links {
+   display: flex;
+   flex-direction: row;
+   list-style-type: none;
+}
+
+.navbar-links-item a {
+   margin-right: 30px;
+   color: white;
+   text-decoration: none;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   /* min-width: 90px; */
+   background-color: #f9f9f9;
+   box-shadow: 0px 8px 16px 0px #00000033;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+a.dropdown-link:link {
+   text-decoration: none;
+   color: #000000;
+   display: block;
+   text-align: center;
+   padding: 10px 20px 0 20px;
+}
+
+a.dropdown-link:visited {
+   color: #000000;
+}
+
+a.dropdown-link:hover {
+   color: #979797;
+}
+
+a.dropdown-link:active {
+   color: #0e0e0e;
+}
+
+
+.slideshow {
+   position: relative;
+   margin: auto;
+   text-align: center;
+}
+
+img {
+   width: 100%;
+   height: 45rem;
+   object-fit: cover;
+}
+
+.slides {
+   display: none;
+}
+
+.nextprev {
+   display: flex;
+   justify-content: space-between;
+}
+
+.prev,
+.next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+}
+
+.prev:hover,
+.next:hover {
+   background-color: #000000cc;
+}
+
+.next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+   color: #f2f2f2;
+   font-size: 1.2rem;
+   width: 100%;
+   margin-top: -3rem;
+ }
+
+.numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   /* padding: 8px 12px; */
+   position: absolute;
+   top: 3rem;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+   background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+   animation-name: fade;
+   animation-duration: 1.5s;
+}
+
+.slideshow-dots {
+   margin-top: 2rem;
+}
+
+.welcome {
+   margin: 3rem;
+}
+
+@keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+
+ /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+   .prev, .next,.text {font-size: 11px}
+ }
+ 
+ 

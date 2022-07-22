@@ -1,6 +1,6 @@
-# Hotel Booking Project
+# Vacation Resorts Booking Project
 
-Learning to build a vacation home booking system.
+Learning to build a vacation resorts booking system.
 
 # Technology Used
 
