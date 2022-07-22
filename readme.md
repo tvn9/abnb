@@ -2,7 +2,7 @@
 
 Learning to build a vacation resorts booking system.
 
-# Technology Used
+## Technology Used
 
 - HTML/CSS/JavaScript and Go
   
