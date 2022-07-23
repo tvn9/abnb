@@ -300,19 +300,20 @@ navbar-links {
 
 .help-image {
    background-image: url("../imgs/help1.jpg");
+   background-repeat: no-repeat;
    background-size: cover;
+   background-position: center;
    width: 100%;
    height: 30rem;
    display: flex;
    justify-content: center;
+   align-items: center;
 }
 
 .help-image-text {
    text-transform: uppercase;
    font-size: 2rem;
    color: white;
-   position: absolute;
-   top: 12rem;
 }
 
 .help-subjects{
@@ -325,7 +326,6 @@ navbar-links {
    flex-direction: row;
    justify-content: space-evenly;
    padding: 1rem 0 2rem 0;
-   border-top: 1px solid #ebebeb;
    border-bottom: 1px solid #ebebeb;
 }
 
