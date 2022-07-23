@@ -205,7 +205,6 @@ navbar-links {
    margin: auto;
    display: flex;
    flex-direction: column;
-   /* padding: 3rem; */
    background-color: #515151;
    color: #bbbbbb;
 }
@@ -214,6 +213,7 @@ navbar-links {
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
+   margin: 1rem 0;
    /* border-top: 1px solid #bbbbbb; */
 }
 
@@ -258,7 +258,6 @@ navbar-links {
 .product-summary-photo img {
    width: 40rem;
    object-fit: cover;
-   /* object-position: center;  */
    margin-right: 1.5rem;
    border-radius: .8rem;
    box-shadow: 0px 8px 16px 0px #00000033;
