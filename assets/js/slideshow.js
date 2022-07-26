@@ -28,3 +28,11 @@ function showSlides(n) {
    slides[slideIndex - 1].style.display = "block";
    dots[slideIndex - 1].className += " active";
 }
+
+const dateAvailableGroup = document.getElementsByClassName("date-available-group");
+const btnCheckAvailability = document.getElementsByClassName("btn-check-availability");
+
+
+function DateAvailableGroup() {
+   
+}

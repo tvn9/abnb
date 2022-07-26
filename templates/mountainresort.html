@@ -36,17 +36,38 @@
             <div class="product-summary-photo">
                <img src="../assets/imgs/room3.jpg" alt="beach front room">
             </div>
-            <div class="product-summary-text">
-               <h1>Mountain Resort Rooms</h1>
-               <span><strong>Bed:</strong> 2 Quen beds</span>
-               <span><strong>Bath:</strong> 1 full size bath</span>
-               <span><strong>Internet:</strong> Free WiFi Internet is available</span>
-               <span><strong>Smoking:</strong> None smoking</span>
-               <span><strong>Swimming Pool:</strong> Club house swimming pool available</span>
-               <span><strong>Parking:</strong> 1 Free parking per guest</span>
-               <span><strong>Price:</strong> Pricing information</span>
-
-               <input type="buttun" name="booknow" class="btn btn-booknow" value="Check Availability">
+            <div class="product-summary-group">
+               <div class="product-summary-text">
+                  <h1>Mountain Resorts</h1>
+                  <span><strong>Bed:</strong> 2 Quen beds</span>
+                  <span><strong>Bath:</strong> 1 full size bath</span>
+                  <span><strong>Internet:</strong> Free WiFi Internet is available</span>
+                  <span><strong>Smoking:</strong> None smoking</span>
+                  <span><strong>Swimming Pool:</strong> Club house swimming pool available</span>
+                  <span><strong>Parking:</strong> 1 Free parking per guest</span>
+                  <span><strong>Price:</strong> Pricing information</span>
+               </div>
+               <div class="spacer"></div>
+               <div class="date-available-group disable">
+                  <div class="date-available">
+                     <form action="/resevation.html" method="get">
+                        <label for="date-arrive"><strong>Arrival</strong></label><br>
+                        <input type="date" id="date-arrive" name="date-arrive" required aria-describedby="dateArriveHelp"><br>
+                        <small id="dateArriveHelp">Enter arrival date</small>
+                     </form>
+                  </div>
+                  <div class="date-available">
+                     <form action="/resevation.html" method="get">
+                        <label for="date-arrive"><strong>Departure</strong></label><br>
+                        <input type="date" id="date-arrive" name="date-arrive" required aria-describedby="dateArriveHelp"><br>
+                        <small id="dateArriveHelp">Enter departure date</small>
+                     </form>
+                  </div>
+               </div>
+               <div class="button-group">
+                  <input type="button" name="booknow" class="btn btn-check-availability" value="Check Availability">
+                  <input type="submit" name="booknow" class="btn btn-check-submit" value="Submit">
+               </div>
             </div>
          </div>
 
