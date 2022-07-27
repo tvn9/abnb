@@ -1,11 +1,12 @@
 * {
    padding: 0px;
    margin: 0px;
+   box-sizing: border-box;
 }
 
 body {
    font-family: "inter", sans-serif;
-   color: #3a3a3a;
+   color: #25272e;
    line-height: 1.5rem;
    letter-spacing: -.2px;
 }
@@ -47,14 +48,15 @@ a {
    align-items: center;
    height: 2.5rem;
    width: 100%;
-   background-color: #1e1e1e;
+   background-color: #25272e;
 }
 
 .logo {
    margin: 0 3rem;
    font-size: 1.8rem;
    text-transform: uppercase;
-   color: #f1af07;
+   /* color: #f1af07; */
+   color: #099268;
 }
 
 .navbar-groups,
@@ -101,14 +103,14 @@ navbar-links {
 .dropdown-links-item:visited {
    text-decoration: none;
    white-space: nowrap;
-   color: #515151;
+   color: #25272e;
    display: block;
    padding: .5rem 1rem .3rem 1rem;
 }
 
 .dropdown-links-item:hover,
 .dropdown-links-item:active {
-   color: #8e8e8e;
+   color: #717171;
 }
 
 .slideshow {
@@ -160,7 +162,8 @@ navbar-links {
 
 /* Caption text */
 .text {
-   color:#f1af07;;
+   /* color:#f1af07; */
+   color: #099268;
    font-size: 1.2rem;
    width: 100%;
    margin-top: -3rem;
@@ -218,8 +221,8 @@ navbar-links {
    margin: auto;
    display: flex;
    flex-direction: column;
-   background-color: #515151;
-   color: #bbbbbb;
+   background-color: #25272e;
+   color: #ffffff;
 }
 
 .footer-groups {
@@ -307,10 +310,6 @@ navbar-links {
    color: #d5d5d5;
 }
 
-.btn-check-submit {
-   /* display: none; */
-}
-
 .product-article {
    width: 100%;
    text-align: left;
@@ -319,19 +318,36 @@ navbar-links {
 
 .btn {
    border-radius: 5px;
-   border-style: none;
-   height: 1.8rem;
+   border: none;
+   padding: .5rem;
    font-size: 1rem;
    text-align: center;
 }
 
 .btn-check-availability, .btn-check-submit {
-   width: 10rem;
-   margin: 1rem 0;
-   background-color: #f1af07;
+   background-color: #099268;
    color: #ffffff;
 }
-   
+
+.btn-check-availability:link, .btn-check-availability:visited {
+   background-color: #099268;
+}
+
+.btn-check-availability:hover, .btn-check-availability:active {
+   background-color: #0ca678;;
+}
+
+
+.btn-check-submit:link,
+.btn-check-submit:visited {
+   /* display: none; */
+   background-color: #099268;
+}
+
+.btn-check-submit:hover,
+.btn-check-submit:active {
+   background-color: #0ca678;
+}
 
 /* End of product */
 
