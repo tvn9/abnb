@@ -29,10 +29,8 @@ function showSlides(n) {
    dots[slideIndex - 1].className += " active";
 }
 
-const dateAvailableGroup = document.getElementsByClassName("date-available-group");
+const dateFormDisable = document.getElementsByClassName("date-form");
 const btnCheckAvailability = document.getElementsByClassName("btn-check-availability");
 
+btnCheckAvailability.addEventListener("click", dateFormToggle);
 
-function DateAvailableGroup() {
-   
-}

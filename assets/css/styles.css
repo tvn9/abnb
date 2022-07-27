@@ -4,15 +4,27 @@
 }
 
 body {
+   font-family: "inter", sans-serif;
    color: #3a3a3a;
    line-height: 1.5rem;
-   letter-spacing: 1px;
+   letter-spacing: -.2px;
 }
 
 h1,
 h2,
 h3 {
    margin: 1rem 0;
+   letter-spacing: -.5px;
+}
+
+h1 {
+   font-size: 2.5rem;
+}
+h2 {
+   font-size: 2rem;
+}
+h3 {
+   font-size: 1.2rem;
 }
 
 a {
@@ -20,7 +32,7 @@ a {
 }
 
 .spacer {
-   /* margin: 2rem 0; */
+   /* margin: 1.8rem 0; */
    padding: 1rem 0;
 }
 
@@ -40,6 +52,7 @@ a {
 
 .logo {
    margin: 0 3rem;
+   font-size: 1.8rem;
    text-transform: uppercase;
    color: #f1af07;
 }
@@ -274,22 +287,28 @@ navbar-links {
    justify-content: left;
 }
 
-.date-available-group {
-   /* display: none; */
+.date-form {
+   display: none;
    display: flex;
    flex-direction: row;
 }
 
-.date-available input {
-   height: 1.3rem;
+.date-form-disable {
+   display: none;
+}
+
+.date-form input {
+   height: 1.5rem;
    width: 10rem;
-   border-style: 1px solid #a7a7a7;
+   border: none;
+   border: 1px solid #a7a7a7;
    border-radius: 5px;
-   margin-right: 2rem;
+   margin-right: 1rem;
+   color: #d5d5d5;
 }
 
 .btn-check-submit {
-   display: none;
+   /* display: none; */
 }
 
 .product-article {
@@ -299,7 +318,7 @@ navbar-links {
 }
 
 .btn {
-   border-radius: 8px;
+   border-radius: 5px;
    border-style: none;
    height: 1.8rem;
    font-size: 1rem;
